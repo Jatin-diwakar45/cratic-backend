@@ -25,7 +25,7 @@ const app = express();
 const server = http.createServer(app);
 
 app.use(cors({
-  origin: "http://localhost:9002", // frontend port
+  origin: "https://caratic-backend.vercel.app", // frontend port
   credentials: true
 }));
 
