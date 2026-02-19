@@ -30,6 +30,7 @@
     "node-cron": "^4.2.1",
     "papaparse": "^5.5.3",
     "razorpay": "^2.9.6",
+    "react-day-picker": "^9.13.2",
     "socket.io": "^4.8.1",
     "streamifier": "^0.1.1"
   },

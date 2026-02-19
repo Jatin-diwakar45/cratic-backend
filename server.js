@@ -24,17 +24,17 @@ connectDB();
 const app = express();
 const server = http.createServer(app);
 
-app.use(cors({
-  origin: "https://caratic-backend.vercel.app", // frontend port
-  credentials: true
-}));
+// app.use(cors({
+//   origin: "https://caratic-backend.vercel.app", // frontend port
+//   credentials: true
+// }));
 
 // ✅ Allow both local & production (Vercel frontend)
 const allowedOrigins = [
   "http://localhost:9002",             // Local frontend
-  "https://cratic-bay.vercel.app",
-  "https://cratic-nu.vercel.app",
-  "https://cratic12.vercel.app"
+  "https://cratic-frontend-5u1j.vercel.app",
+  "http://cratic-frontend-5u1j.vercel.app"
+
 ];
 
 // ✅ CORS Configuration
