@@ -33,8 +33,7 @@ const server = http.createServer(app);
 const allowedOrigins = [
   "http://localhost:9002",             // Local frontend
   "https://cratic-frontend-5u1j.vercel.app",
-  "http://cratic-frontend-5u1j.vercel.app"
-
+  "https://rarediamond.kloudon.com"
 ];
 
 // ✅ CORS Configuration
